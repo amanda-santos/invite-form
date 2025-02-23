@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent-cyan: #59fff9;
+  --color-accent-fuschia: #ff59f9;
+  --color-accent-green: #59ff91;
+  --color-accent-lime: #e1ff59;
+  --color-accent-navy: #6a59ff;
+  --color-accent-orange: #ff8b59;
+  --color-accent-pink: #ff598b;
+  --color-accent-purple: #b259ff;
+  --color-accent-yellow: #ffcd59;
+  --color-brand-dark: #1d6fb6;
+  --color-brand-light: #59b2ff;
+  --color-brand-mid: #3487cf;
+  --color-feedback-danger: #ff5959;
+  --color-input-base: #1c1f21;
+  --color-input-placeholder: #869198;
+  --color-input-stroke: #363b40;
+  --color-shape-background: #131516;
+  --color-shape-body: #212427;
+  --color-shape-button: #2d3136;
+  --color-shape-hover: #383d42;
+  --color-text-body: #c8cdd0;
+  --color-text-heading: #f9f9f9;
+
+  --text-body-xs: 0.75rem;
+  --text-body-sm: 0.875rem;
+  --text-body-md: 1rem;
+  --text-header-sm: 1.125rem;
+  --text-header-md: 1.75rem;
+  --text-logo: 2.5rem;
+
+  --font-logo: "Leckerli One", serif;
+  --font-body: "Open Sans", sans-serif;
+  --font-heading: "Baloo 2", sans-serif;
+}
