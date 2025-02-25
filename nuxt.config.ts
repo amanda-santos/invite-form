@@ -8,15 +8,21 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  modules: [
-    "@nuxt/fonts",
-    "@nuxt/image",
-    "@nuxt/eslint",
-    "nuxt-lucide-icons",
-  ],
+  modules: ["@nuxt/fonts", "@nuxt/image", "@nuxt/eslint", "nuxt-lucide-icons"],
   fonts: {
     experimental: {
       processCSSVariables: true,
+    },
+  },
+  app: {
+    head: {
+      title: "Festivite",
+      meta: [
+        {
+          name: "description",
+          content: "Crie um convite digital para o seu evento",
+        },
+      ],
     },
   },
 });
