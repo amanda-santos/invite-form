@@ -8,7 +8,12 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  modules: ["@nuxt/fonts", "@nuxt/image", "@nuxt/eslint"],
+  modules: [
+    "@nuxt/fonts",
+    "@nuxt/image",
+    "@nuxt/eslint",
+    "nuxt-lucide-icons",
+  ],
   fonts: {
     experimental: {
       processCSSVariables: true,

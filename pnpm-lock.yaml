@@ -20,6 +20,9 @@ importers:
       nuxt:
         specifier: ^3.15.4
         version: 3.15.4(@parcel/watcher@2.5.1)(@types/node@22.13.5)(db0@0.2.4)(eslint@9.21.0(jiti@2.4.2))(ioredis@5.5.0)(lightningcss@1.29.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(vite@6.1.1(@types/node@22.13.5)(jiti@2.4.2)(lightningcss@1.29.1)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0)
+      nuxt-lucide-icons:
+        specifier: ^1.0.5
+        version: 1.0.5(magicast@0.3.5)(vue@3.5.13(typescript@5.7.3))
       tailwindcss:
         specifier: ^4.0.8
         version: 4.0.8
@@ -2573,6 +2576,11 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
+  lucide-vue-next@0.476.0:
+    resolution: {integrity: sha512-deFzs+/sAcGAEzEKFK+5dPHWg5lUl4eYrRbtdpzNYVxoBLIoGLB5yvx9VwbplJRiGWhPduYr4ZmLqAYgy8UY5A==}
+    peerDependencies:
+      vue: '>=3.0.1'
+
   magic-regexp@0.8.0:
     resolution: {integrity: sha512-lOSLWdE156csDYwCTIGiAymOLN7Epu/TU5e/oAnISZfU6qP+pgjkE+xbVjVn3yLPKN8n1G2yIAYTAM5KRk6/ow==}
 
@@ -2792,6 +2800,9 @@ packages:
 
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
+
+  nuxt-lucide-icons@1.0.5:
+    resolution: {integrity: sha512-Mq9lFnPZu9VoIRPxbayGEyxpso9GpccJS3dqI88oiyrcXI6ZA/Qi+jHSKvYmmbZccZGyroxRQlfa58tGN5SmLw==}
 
   nuxt@3.15.4:
     resolution: {integrity: sha512-hSbZO4mR0uAMJtZPNTnCfiAtgleoOu28gvJcBNU7KQHgWnNXPjlWgwMczko2O4Tmnv9zIe/CQged+2HsPwl2ZA==}
@@ -7086,6 +7097,10 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
+  lucide-vue-next@0.476.0(vue@3.5.13(typescript@5.7.3)):
+    dependencies:
+      vue: 3.5.13(typescript@5.7.3)
+
   magic-regexp@0.8.0:
     dependencies:
       estree-walker: 3.0.3
@@ -7356,6 +7371,17 @@ snapshots:
   nth-check@2.1.1:
     dependencies:
       boolbase: 1.0.0
+
+  nuxt-lucide-icons@1.0.5(magicast@0.3.5)(vue@3.5.13(typescript@5.7.3)):
+    dependencies:
+      '@nuxt/kit': 3.15.4(magicast@0.3.5)
+      lucide-vue-next: 0.476.0(vue@3.5.13(typescript@5.7.3))
+      pathe: 1.1.2
+      scule: 1.3.0
+    transitivePeerDependencies:
+      - magicast
+      - supports-color
+      - vue
 
   nuxt@3.15.4(@parcel/watcher@2.5.1)(@types/node@22.13.5)(db0@0.2.4)(eslint@9.21.0(jiti@2.4.2))(ioredis@5.5.0)(lightningcss@1.29.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(vite@6.1.1(@types/node@22.13.5)(jiti@2.4.2)(lightningcss@1.29.1)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0):
     dependencies:
